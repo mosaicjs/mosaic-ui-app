@@ -1,6 +1,6 @@
 {
   "name": "mosaic-app",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Common application UI element (screens/layouts/etc)",
   "main": "index.js",
   "scripts": {
