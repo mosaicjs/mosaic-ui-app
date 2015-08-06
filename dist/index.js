@@ -1,13 +1,13 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("react"), require("promise"));
+		module.exports = factory(require("react"), require("promise"), require("mosaic-adapters"));
 	else if(typeof define === 'function' && define.amd)
-		define(["react", "promise"], factory);
+		define(["react", "promise", "mosaic-adapters"], factory);
 	else {
-		var a = typeof exports === 'object' ? factory(require("react"), require("promise")) : factory(root["react"], root["promise"]);
+		var a = typeof exports === 'object' ? factory(require("react"), require("promise"), require("mosaic-adapters")) : factory(root["react"], root["promise"], root["mosaic-adapters"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(this, function(__WEBPACK_EXTERNAL_MODULE_2__, __WEBPACK_EXTERNAL_MODULE_4__) {
+})(this, function(__WEBPACK_EXTERNAL_MODULE_2__, __WEBPACK_EXTERNAL_MODULE_4__, __WEBPACK_EXTERNAL_MODULE_5__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -189,7 +189,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _promise2 = _interopRequireDefault(_promise);
 
-	var _mosaicAdapters = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"mosaic-adapters\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+	var _mosaicAdapters = __webpack_require__(5);
 
 	var _AppLayout = __webpack_require__(1);
 
@@ -266,6 +266,12 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports) {
 
 	module.exports = __WEBPACK_EXTERNAL_MODULE_4__;
+
+/***/ },
+/* 5 */
+/***/ function(module, exports) {
+
+	module.exports = __WEBPACK_EXTERNAL_MODULE_5__;
 
 /***/ }
 /******/ ])

@@ -12,5 +12,5 @@ module.exports = {
             loader : 'babel-loader'
         } ]
     },
-    externals : [ 'react', 'promise' ]
+    externals : [ 'react', 'promise', 'mosaic-adapters' ]
 };
