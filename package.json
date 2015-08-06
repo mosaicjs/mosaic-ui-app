@@ -1,5 +1,5 @@
 {
-  "name": "mosaic-app",
+  "name": "mosaic-ui-app",
   "version": "0.2.0",
   "description": "Common application UI element (screens/layouts/etc)",
   "main": "index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mosaicjs/mosaic-app"
+    "url": "https://github.com/mosaicjs/mosaic-ui-app"
   },
   "keywords": [
     "app",
@@ -20,7 +20,7 @@
   "author": "Mikhail Kotelnikov <mikhail.kotelnikov@ubimix.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mosaicjs/mosaic-app/issues"
+    "url": "https://github.com/mosaicjs/mosaic-ui-app/issues"
   },
   "devDependencies": {
     "babel-core": "^5.8.21",
