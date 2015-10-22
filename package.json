@@ -32,8 +32,8 @@
   },
   "dependencies": {
     "mosaic-adapters": "^0.2.5",
-    "mosaic-ui": "^0.1.0",
+    "mosaic-ui": "^0.1.1",
     "promise": "^7.0.4",
-    "react": "^0.13.3"
+    "react": "^0.14.0"
   }
 }
