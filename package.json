@@ -34,6 +34,7 @@
     "mosaic-adapters": "^0.2.5",
     "mosaic-ui": "^0.1.1",
     "promise": "^7.0.4",
-    "react": "^0.14.0"
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0"
   }
 }
